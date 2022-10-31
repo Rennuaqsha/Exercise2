@@ -16,8 +16,19 @@ class proram
             if (n < 66)
                 break;
             else
-                Console.WriteLine("\nMaksimal jumlah data pada array : ");
+                Console.WriteLine("\nMaksimal jumlah data pada array adalah 66. \n");
         }
+        Console.WriteLine("");
+        Console.WriteLine("-----------------------");
+        Console.WriteLine("Masukkan Elemen Array: ");
+        Console.WriteLine("-----------------------");
+
         
+        for (int i = 0; i < n; i++)
+        {
+            Console.WriteLine("$masukkan elemen array: ");
+            string s2 = Console.ReadLine();
+            rennu[i] = int.Parse(s2);
+        }
     }
 }
