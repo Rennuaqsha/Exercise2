@@ -1,9 +1,6 @@
 ﻿using System;
 
-namespace Exercise2
+class proram
 {
-    class program
-    {
-
-    }
+    
 }
